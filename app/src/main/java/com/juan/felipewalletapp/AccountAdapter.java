@@ -55,7 +55,7 @@ public class AccountAdapter extends RecyclerView.Adapter<AccountAdapter.ViewHold
             tvNameAccount = itemView.findViewById(R.id.tv_item_name_account);
             tvTypeAccount = itemView.findViewById(R.id.tv_item_type_account);
             tvCurretValue = itemView.findViewById(R.id.tv_item_balance_account);
-            ivPrincipal= itemView.findViewById(R.id.iv_imagen);
+            ivPrincipal= itemView.findViewById(R.id.iv_gasolina);
         }
 
         public void loadInfo(Account myAccount) {
